@@ -54,7 +54,7 @@ Is used as a badge with the following markup:
 ```html
 <iframe
   width="178" height="24" style="border:0px"
-  src="http://steveklabnik.github.io/rust-community-versions/_posts/2013-10-18-pointers-in-rust-a-guide.md">
+  src="http://steveklabnik.github.io/rust-community-versions/2013/10/18/pointers-in-rust-a-guide.html">
 </iframe>
 ```
 

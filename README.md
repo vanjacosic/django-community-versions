@@ -2,7 +2,7 @@ Web content never expires. A blog post written in 2011 will live on in search
 engine results for years.
 
 [Django](https://www.djangoproject.com/) has undergone a _lot_ of change over the last
-few years, often in completely incompatible ways. This means the Internet is
+few years, sometimes in backwards incompatible ways. This means the Internet is
 littered with content and posts that were accurate at the time, but have since
 been obsoleted.
 

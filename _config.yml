@@ -1,10 +1,10 @@
 # Site settings
-title: Rust Versions
+title: Django Versions
 description: > # this means to ignore newlines until "baseurl:"
-  rust-community-versions provides helpful badges with versioning
+  django-community-versions provides helpful badges with versioning
   information to community resources, like blog posts.
-baseurl: "/rust-community-versions"
-# url: "http://steveklabnik.github.io"
+baseurl: "/django-community-versions"
+# url: "http://vanjacosic.github.io"
 
 # Build settings
 markdown: kramdown

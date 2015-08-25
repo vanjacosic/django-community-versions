@@ -1,14 +1,14 @@
 Web content never expires. A blog post written in 2011 will live on in search
 engine results for years.
 
-[Rust](http://www.rust-lang.org/) has undergone a _lot_ of change over the last
+[Django](https://www.djangoproject.com/) has undergone a _lot_ of change over the last
 few years, often in completely incompatible ways. This means the Internet is
 littered with content and posts that were accurate at the time, but have since
 been obsoleted.
 
 To ensure old content gets properly flagged, with no effort needed by the
 author, we've created a GitHub-driven badge service. See
-[the user-friendly website](http://steveklabnik.github.io/rust-community-versions/)
+[the user-friendly website](http://vanjacosic.github.io/django-community-versions/)
 for more details on the general idea.
 
 ## Updating a badge

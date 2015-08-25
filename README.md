@@ -1,3 +1,5 @@
+# Community versions for Django
+
 Web content never expires. A blog post written in 2011 will live on in search
 engine results for years.
 
@@ -10,6 +12,13 @@ To ensure old content gets properly flagged, with no effort needed by the
 author, we've created a GitHub-driven badge service. See
 [the user-friendly website](http://vanjacosic.github.io/django-community-versions/)
 for more details on the general idea.
+
+## Example
+
+A screenshot of how the badge looks:
+
+<img src="https://cldup.com/BNws4708xH.png" title="Example of the Django version badge" width="183" height="27"> 
+
 
 ## Updating a badge
 

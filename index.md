@@ -16,6 +16,13 @@ author, we've created a GitHub-driven badge service. See
 [the user-friendly website](http://vanjacosic.github.io/django-community-versions/)
 for more details on the general idea.
 
+## Example
+
+This is an example of the badge:
+
+<iframe width="178" height="24" style="border:0px" src="http://vanjacosic.github.io/django-community-versions/2015/08/25/community-versions-for-django.html"></iframe>
+
+
 ## Updating a badge
 
 Badges are stored as Jekyll posts. For example, the badge for this blog post:

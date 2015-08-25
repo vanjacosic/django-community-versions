@@ -15,26 +15,26 @@ for more details on the general idea.
 
 Badges are stored as Jekyll posts. For example, the badge for this blog post:
 
-* "Pointers in Rust: a Guide" [http://words.steveklabnik.com/pointers-in-rust-a-guide](http://words.steveklabnik.com/pointers-in-rust-a-guide)
+* "Community versions for Django" [http://vanjacosic.com/community-versions-for-django/](http://vanjacosic.com/community-versions-for-django/)
 
 Is stored at:
 
-* [\_posts/2013-10-18-pointers-in-rust-a-guide.md](http://steveklabnik.github.io/rust-community-versions/_posts/2013-10-18-pointers-in-rust-a-guide.md)
+* [\_posts/2015-08-25-community-versions-for-django.md](https://github.com/vanjacosic/django-community-versions/blob/gh-pages/_posts/2015-08-25-community-versions-for-django.md)
 
 Versioning informations is store in the YAML front-matter of that post:
 
-```
+{% highlight yaml %}
 ---
 layout: post
-url: http://words.steveklabnik.com/pointers-in-rust-a-guide
-title: "Pointers in Rust: a Guide"
-date: 2013-10-18
-start_version: 0.8
+url: http://vanjacosic.com/community-versions-for-django/
+title: "Community versions for Django"
+date: 2015-08-25
+start_version: 1.6
+end_version: 1.8
 ---
-```
+{% endhighlight %}
 
-To update the badge (as seen the blog post at words.steveklabnik.com), open a PR changing
-the YAML front-matter.
+To update the badge (as seen the blog post), open a PR changing the YAML front-matter.
 
 ## Creating a badge
 
@@ -46,7 +46,7 @@ To embed your badge, use the filename to determine the badge URL. For example
 this filename:
 
 ```
-_posts/2013-10-18-pointers-in-rust-a-guide.md
+_posts/2015-08-25-community-versions-for-django.md
 ```
 
 Is used as a badge with the following markup:
@@ -54,7 +54,7 @@ Is used as a badge with the following markup:
 ```html
 <iframe
   width="178" height="24" style="border:0px"
-  src="http://steveklabnik.github.io/rust-community-versions/2013/10/18/pointers-in-rust-a-guide.html">
+  src="http://vanjacosic.github.io/django-community-versions/2015/08/25/community-versions-for-django.html">
 </iframe>
 ```
 

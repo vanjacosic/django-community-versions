@@ -20,7 +20,7 @@ for more details on the general idea.
 
 Badges are stored as Jekyll posts. For example, the badge for this blog post:
 
-* "Community versions for Django" [http://vanjacosic.com/community-versions-for-django/](http://vanjacosic.com/community-versions-for-django/)
+* "Community versions for Django" - [http://vanjacosic.com/community-versions-for-django/](http://vanjacosic.com/community-versions-for-django/)
 
 Is stored at:
 
@@ -39,4 +39,4 @@ end_version: 1.8
 ---
 {% endhighlight %}
 
-To update the badge (as seen the blog post), open a PR changing the YAML front-matter.
+To update the badge (as seen in the blog post), open a PR changing the YAML content.

@@ -23,7 +23,7 @@ Is stored at:
 
 Versioning informations is store in the YAML front-matter of that post:
 
-{% highlight yaml %}
+```
 ---
 layout: post
 url: http://vanjacosic.com/community-versions-for-django/
@@ -32,9 +32,9 @@ date: 2015-08-25
 start_version: 1.6
 end_version: 1.8
 ---
-{% endhighlight %}
+```
 
-To update the badge (as seen the blog post), open a PR changing the YAML front-matter.
+To update the badge (as seen in the blog post), open a PR changing the YAML content.
 
 ## Creating a badge
 
